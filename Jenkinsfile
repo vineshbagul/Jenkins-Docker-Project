@@ -6,7 +6,7 @@ pipeline {
         
         stage("git login"){
             steps{
-                git 'https://github.com/vikash-kumar01/Jenkins-Docker-Project.git'
+                git 'https://github.com/vineshbagul93/Jenkins-Docker-Project.git'
             }
         }
          stage("Sending docker file to ansible server"){
